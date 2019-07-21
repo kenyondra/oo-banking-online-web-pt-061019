@@ -8,5 +8,5 @@ class Transfer
     @status = "pending"
   end
   
-  
+  def both_valid?
 end
