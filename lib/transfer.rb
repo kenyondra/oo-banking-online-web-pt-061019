@@ -30,7 +30,7 @@ class Transfer
   def reverse_transfer
     if @status = "complete"
       @sender.balance += @amount
-      @reciever.balance -= ( @amount * -1 )
+      @reciever.balance -= @amount
       @status = "reversed"
     end
   end
