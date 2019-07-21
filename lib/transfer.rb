@@ -12,5 +12,9 @@ class Transfer
     if sender.valid? && reciever.valid?
       true
     else
-      false
+      false 
+    end
+  end
+  
+  
 end
