@@ -3,6 +3,8 @@ class Transfer
   
   def initialize(sender, reciever, amount)
     @sender = sender 
-    @
+    @reciever = reciever
+    @amount = amount
+    @status = 
   # your code here
 end
