@@ -9,4 +9,5 @@ class Transfer
   end
   
   def both_valid?
+    if sender.valid
 end
