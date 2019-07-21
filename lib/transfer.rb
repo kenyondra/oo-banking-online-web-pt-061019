@@ -9,7 +9,7 @@ class Transfer
   end
   
   def both_valid?
-    if sender.valid? && reciever.valid?
+    @sender.valid? && reciever.valid?
       true
     else
       false 
